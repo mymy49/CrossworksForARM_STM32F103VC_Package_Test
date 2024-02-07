@@ -1,0 +1,9 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="STM32_Custom" target="8" version="2">
+  <project Name="STM32_Custom">
+    <configuration
+      Name="Common"
+      project_directory=""
+      project_type="Staging" />
+  </project>
+</solution>
