@@ -1,0 +1,20 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="STM32" target="8" version="2">
+  <project Name="STM32 CPU Support">
+    <configuration
+      Name="Common"
+      combine_command="$(StudioDir)/bin/mkpkg -exclude ./Convert.sh -exclude ./Extract.sh -exclude ./STM32.hzp -exclude ./STM32.hzs -exclude ./STM32.hzq -exclude ./readme.md -exclude ./.gitignore -c &quot;$(CombiningOutputFilePath)&quot; ."
+      combine_output_filepath="$(ProjectDir)/STM32.hzq"
+      project_directory=""
+      project_type="Combining" />
+    <folder Name="packages">
+      <file file_name="packages/STM32_V3_package.xml" />
+    </folder>
+    <folder
+      Name="targets"
+      path="targets"
+      filter=""
+      recurse="Yes"
+      exclude="" />
+  </project>
+</solution>
