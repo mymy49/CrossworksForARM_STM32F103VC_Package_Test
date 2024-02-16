@@ -1,0 +1,11 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution version="1" Name="STM32SimulatorMemory" >
+  <project Name="STM32SimulatorMemory" template_name="DLL">
+    <configuration Name="Common" build_output_file_name="$(ProjectName)$(HostDLL)" c_user_include_directories="../../ARMSimulatorMemoryInterface"/>
+    <folder Name="Source Files" >           
+      <file file_name="STM32SimulatorMemory.cpp" />
+      <file file_name="STM32SimulatorMemory.h" />
+      <file file_name="../../ARMSimulatorMemoryInterface/ARMSimulatorMemoryImplementation.cpp" />
+    </folder>
+  </project>
+</solution>

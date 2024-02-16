@@ -1,0 +1,137 @@
+<projects>
+  <project cpu_manufacturer="STMicroelectronics" cpu_name="STM32" cpu_generic_name="STM32" board_manufacturer="" board_name="" name="STM32 Executable" description="An executable for STMicroelectronics STM32." type="Executable" template_name="STM32_EXE">
+    <configuration name="THUMB Debug" />
+    <configuration name="THUMB Release" />
+    <configuration name="$(Configuration)" />
+    <property name="arm_simulator_memory_simulation_filename" value="$(TargetsDir)/STM32/STM32SimulatorMemory$(HostDLL)" />
+    <property name="target_get_partname_script" value="GetPartName()" />
+    <property name="target_match_partname_script" value="MatchPartName(&quot;$(Target)&quot;)" />
+    <property name="target_trace_initialize_script" value="EnableTrace(&quot;$(TraceInterfaceType)&quot;)" />
+    <property name="target_script_file" value="$(TargetsDir)/STM32/STM32_Target.js" />
+    <property name="target_reset_script" configuration="RAM" value="Reset()" />
+    <property name="target_reset_script" configuration="Flash" value="FLASHReset()" />
+    <property name="arm_target_loader_can_lock_all" configuration="Flash" value="No" />
+    <property name="arm_target_loader_can_unlock_all" configuration="Flash" value="No" />
+    <property name="arm_target_loader_can_lock_range" configuration="Flash" value="No" />
+    <property name="arm_target_loader_can_unlock_range" configuration="Flash" value="No" />
+    <property name="arm_target_trace_interface_type" value="None" />
+    <property name="arm_linker_jtag_pad_pre_dr" value="1" />
+    <property name="arm_linker_jtag_pad_pre_ir" value="5" />
+    <property name="arm_fp_abi" value="Soft" />
+    <property name="arm_linker_stack_size" value="256" choose="yes" />
+    <property name="arm_linker_process_stack_size" value="0" />
+    <property name="arm_linker_heap_size" value="128" choose="yes" />
+    <property name="linker_output_format" />
+    <property name="linker_printf_fmt_level" />
+    <property name="linker_printf_width_precision_supported" />
+    <property name="linker_printf_fp_enabled" />
+    <property name="linker_scanf_fmt_level" />
+    <property name="linker_scanf_fp_enabled" />
+    <property name="linker_scanf_character_group_matching_enabled" />
+    <property name="c_user_include_directories" value="$(TargetsDir)/STM32/include" />
+    <property name="property_groups_file_path" value="$(TargetsDir)/STM32/propertyGroups.xml" />
+    <propertygroup name="Target" value="STM32" choose="Yes" />
+    <propertygroup name="Placement" value="Flash" choose="Yes" />
+    <propertygroup name="CMSIS_CORE" value="Yes" />
+    <folder name="Source Files" filter="c;cpp;cxx;cc;h;s;asm;inc">
+      <file name="main.c" source="$(StudioDir)/samples/Shared/main.c" />
+    </folder>
+    <folder name="System Files">
+      <file name="$(StudioDir)/source/thumb_crt0.s" expand="no" />
+      <file name="$(TargetsDir)/STM32/STM32_Startup.s" expand="no" />
+      <file name="$(TargetsDir)/STM32/$(DeviceVectorsFile)" expand="no" />
+    </folder>
+  </project>
+  <project cpu_manufacturer="STMicroelectronics" cpu_name="STM32" cpu_generic_name="STM32" board_manufacturer="" board_name="" name="STM32 Externally Built Executable" description="An externally built executable for STMicroelectronics STM32." type="Externally Built Executable" template_name="STM32_EXT_EXE">
+    <property name="arm_simulator_memory_simulation_filename" value="$(TargetsDir)/STM32/STM32SimulatorMemory$(HostDLL)" />
+    <property name="target_get_partname_script" value="GetPartName()" />
+    <property name="target_match_partname_script" value="MatchPartName(&quot;$(Target)&quot;)" />
+    <property name="target_trace_initialize_script" value="EnableTrace(&quot;$(TraceInterfaceType)&quot;)" />
+    <property name="target_script_file" value="$(TargetsDir)/STM32/STM32_Target.js" />
+    <property name="target_reset_script" configuration="RAM" value="Reset()" />
+    <property name="target_reset_script" configuration="Flash" value="FLASHReset()" />
+    <property name="arm_target_loader_can_lock_all" configuration="Flash" value="No" />
+    <property name="arm_target_loader_can_unlock_all" configuration="Flash" value="No" />
+    <property name="arm_target_loader_can_lock_range" configuration="Flash" value="No" />
+    <property name="arm_target_loader_can_unlock_range" configuration="Flash" value="No" />
+    <property name="arm_target_trace_interface_type" value="None" />
+    <property name="arm_linker_jtag_pad_pre_dr" value="1" />
+    <property name="arm_linker_jtag_pad_pre_ir" value="5" />
+    <property name="external_build_file_name" />
+    <property name="property_groups_file_path" value="$(TargetsDir)/STM32/propertyGroups.xml" />
+    <propertygroup name="Target" value="STM32" choose="Yes" />
+    <propertygroup name="Placement" value="Flash" />
+    <folder name="Source Files" filter="c;cpp;cxx;cc;h;s;asm;inc" />
+  </project>
+  <project cpu_manufacturer="STMicroelectronics" cpu_name="STM32" cpu_generic_name="STM32" board_manufacturer="" board_name="" name="STM32 External GCC Built Executable" description="An external GCC built executable for STMicroelectronics STM32." type="Executable" template_name="STM32_GCC_EXE">
+    <configuration name="$(Configuration)" />
+    <property name="arm_simulator_memory_simulation_filename" value="$(TargetsDir)/STM32/STM32SimulatorMemory$(HostDLL)" />
+    <property name="target_get_partname_script" value="GetPartName()" />
+    <property name="target_match_partname_script" value="MatchPartName(&quot;$(Target)&quot;)" />
+    <property name="target_trace_initialize_script" value="EnableTrace(&quot;$(TraceInterfaceType)&quot;)" />
+    <property name="target_script_file" value="$(TargetsDir)/STM32/STM32_Target.js" />
+    <property name="target_reset_script" configuration="RAM" value="Reset()" />
+    <property name="target_reset_script" configuration="Flash" value="FLASHReset()" />
+    <property name="arm_target_loader_can_lock_all" configuration="Flash" value="No" />
+    <property name="arm_target_loader_can_unlock_all" configuration="Flash" value="No" />
+    <property name="arm_target_loader_can_lock_range" configuration="Flash" value="No" />
+    <property name="arm_target_loader_can_unlock_range" configuration="Flash" value="No" />
+    <property name="arm_target_trace_interface_type" value="None" />
+    <property name="arm_linker_jtag_pad_pre_dr" value="1" />
+    <property name="arm_linker_jtag_pad_pre_ir" value="5" />
+    <property name="property_groups_file_path" value="$(TargetsDir)/STM32/propertyGroups.xml" />
+    <propertygroup name="Target" value="STM32" choose="Yes" />
+    <propertygroup name="Placement" value="Flash" />
+    <property name="build_toolchain_directory" value="$(ARMGCCDIR)" />
+    <property name="code_completion_options" value="-isystem$(ToolChainDir)/../$(GCCTarget)/include;-isystem$(ToolChainDir)/../lib/gcc/$(GCCTarget)/$(GCCVersion)/include;-isystem$(ToolChainDir)/../lib/gcc/$(GCCTarget)/$(GCCVersion)/include-fixed;-isystem$(ToolChainDir)/../$(GCCTarget)/include/c++/$(GCCVersion);-isystem$(ToolChainDir)/../$(GCCTarget)/include/c++/$(GCCVersion)/bits" />
+    <property name="gcc_prefix" value="$(ARMGCCTARGET:arm-none-eabi)-" />
+    <property name="gcc_target" value="$(ARMGCCTARGET:arm-none-eabi)" />
+    <property name="gcc_version" value="$(ARMGCCVERSION)" />
+    <property name="use_external_gcc" value="Yes" />
+  </project>
+  <project cpu_manufacturer="STMicroelectronics" cpu_name="STM32" cpu_generic_name="STM32" board_manufacturer="" board_name="" name="STM32 CTL Executable" description="A CrossWorks Tasking Library executable for STMicroelectronics STM32." type="Executable" template_name="STM32_CTL_EXE">
+    <configuration name="THUMB Debug" />
+    <configuration name="THUMB Release" />
+    <property name="arm_simulator_memory_simulation_filename" value="$(TargetsDir)/STM32/STM32SimulatorMemory$(HostDLL)" />
+    <property name="target_get_partname_script" value="GetPartName()" />
+    <property name="target_match_partname_script" value="MatchPartName(&quot;$(Target)&quot;)" />
+    <property name="target_trace_initialize_script" value="EnableTrace(&quot;$(TraceInterfaceType)&quot;)" />
+    <property name="target_script_file" value="$(TargetsDir)/STM32/STM32_Target.js" />
+    <property name="target_reset_script" configuration="RAM" value="Reset()" />
+    <property name="target_reset_script" configuration="Flash" value="FLASHReset()" />
+    <property name="arm_target_loader_can_lock_all" configuration="Flash" value="No" />
+    <property name="arm_target_loader_can_unlock_all" configuration="Flash" value="No" />
+    <property name="arm_target_loader_can_lock_range" configuration="Flash" value="No" />
+    <property name="arm_target_loader_can_unlock_range" configuration="Flash" value="No" />
+    <property name="arm_target_trace_interface_type" value="None" />
+    <property name="arm_linker_jtag_pad_pre_dr" value="1" />
+    <property name="arm_linker_jtag_pad_pre_ir" value="5" />
+    <property name="arm_fp_abi" value="Soft" />
+    <property name="arm_linker_stack_size" value="256" choose="yes" />
+    <property name="arm_linker_process_stack_size" value="256" choose="yes" />
+    <property name="arm_linker_heap_size" value="128" choose="yes" />
+    <property name="linker_output_format" />
+    <property name="linker_printf_fmt_level" />
+    <property name="linker_printf_width_precision_supported" />
+    <property name="linker_printf_fp_enabled" />
+    <property name="linker_scanf_fmt_level" />
+    <property name="linker_scanf_fp_enabled" />
+    <property name="linker_scanf_character_group_matching_enabled" />
+    <property name="c_user_include_directories" value="$(TargetsDir)/STM32/include" />
+    <property name="property_groups_file_path" value="$(TargetsDir)/STM32/propertyGroups.xml" />
+    <propertygroup name="Target" value="STM32" choose="Yes" />
+    <propertygroup name="Placement" value="Flash" />
+    <propertygroup name="CMSIS_CORE" value="Yes" />
+    <propertygroup name="libctl" value="Yes" />
+    <folder name="Source Files" filter="c;cpp;cxx;cc;h;s;asm;inc">
+      <file name="main_ctl.c" source="$(StudioDir)/ctl/source/main_ctl.c" />
+    </folder>
+    <folder name="System Files">
+      <file name="$(StudioDir)/source/thumb_crt0.s" expand="no" />
+      <file name="$(TargetsDir)/STM32/STM32_ctl.c" expand="no" />
+      <file name="$(TargetsDir)/STM32/STM32_Startup.s" expand="no" />
+      <file name="$(TargetsDir)/STM32/$(DeviceVectorsFile)" expand="no" />
+      <file name="STM32_ctl_board.c" source="$(TargetsDir)/STM32/STM32_ctl_board.c" />
+    </folder>
+  </project>
+</projects>

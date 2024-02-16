@@ -1,0 +1,16 @@
+<!DOCTYPE Board_Memory_Definition_File>
+<Root name="STM32WBA52CE">
+  <MemorySegment size="0x100000" name="PPB" start="0xE0000000" />
+  <MemorySegment start="0x48020000" name="AHB5" size="0xC000" />
+  <MemorySegment start="0x46020000" name="AHB4" size="0x2400" />
+  <MemorySegment start="0x46000000" name="APB7" size="0x8000" />
+  <MemorySegment start="0x42020000" name="AHB2" size="0xC4000" />
+  <MemorySegment start="0x40020000" name="AHB1" size="0x14400" />
+  <MemorySegment start="0x40010000" name="APB2" size="0x10000" />
+  <MemorySegment start="0x40000000" name="APB1" size="0x10000" />
+  <MemorySegment start="0x20010000" name="SRAM2" size="0x10000" />
+  <MemorySegment start="0x20000000" name="SRAM1" size="0x8000" />
+  <MemorySegment start="0x20000000" name="RAM" size="0x8000" />
+  <MemorySegment start="0x0BF80000" name="SYSTEM" size="0xC000" />
+  <MemorySegment start="0x08000000" name="FLASH" size="0x80000" access="ReadOnly" />
+</Root>

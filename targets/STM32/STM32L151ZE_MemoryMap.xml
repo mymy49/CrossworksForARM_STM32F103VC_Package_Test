@@ -1,0 +1,14 @@
+<!DOCTYPE Board_Memory_Definition_File>
+<Root name="STM32L151ZE">
+  <MemorySegment size="0x100000" name="PPB" start="0xE0000000" />
+  <MemorySegment size="0x6800" name="AHB" start="0x40020000" />
+  <MemorySegment size="0x4000" name="APB2" start="0x40010000" />
+  <MemorySegment size="0x8000" name="APB1" start="0x40000000" />
+  <MemorySegment size="0x14000" name="RAM" start="0x20000000" />
+  <MemorySegment size="0x20" name="OPTION" start="0x1FFFF800" />
+  <MemorySegment size="0x2000" name="SYSTEM" start="0x1FFF0000" />
+  <MemorySegment size="0x80000" access="ReadOnly" name="FLASH" start="0x08000000" />
+  <MemorySegment size="0x1000" access="ReadOnly" name="EEPROM" start="0x08080000">
+    <ProgramSection alignment="4" load="Yes" name=".eeprom" />
+  </MemorySegment>
+</Root>
