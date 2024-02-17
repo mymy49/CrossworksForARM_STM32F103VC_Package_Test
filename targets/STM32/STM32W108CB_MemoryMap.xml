@@ -1,7 +1,0 @@
-<!DOCTYPE Board_Memory_Definition_File>
-<Root name="STM32W108CB">
-  <MemorySegment size="0x100000" access="Read/Write" start="0xE0000000" name="PPB" />
-  <MemorySegment size="0x10000" name="Peripherals" start="0x40000000" />
-  <MemorySegment size="0x2000" name="RAM" start="0x20000000" />
-  <MemorySegment size="0x20000" access="ReadOnly" name="FLASH" start="0x08000000" />
-</Root>

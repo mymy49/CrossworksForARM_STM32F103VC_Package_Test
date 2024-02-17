@@ -1,0 +1,11 @@
+<!DOCTYPE CrossStudio_Package_Description_File>
+<package crossstudio_versions="8:4.10-" version="0.01" dependencies="CMSIS" cpu_family="STM32_Custom" author="Yoon-Ki Hong" name="STM32_Custom_V3" cpu_manufacturer="STMicroelectronics_Custom" build_version="2024020170.00001;crossworks_v4;crossworks_v4" date="2024-02-17T00:00:00">
+	<file title="STM32 Custom Loader Application Solution" file_name="$(TargetsDir)/STM32_Custom/Loader.hzp" ses_versions="0"/>
+	<file title="Custom CTL Timer and Interrupt support functions" file_name="$(TargetsDir)/STM32_Custom/STM32_ctl.c" ses_versions="0"/>
+
+	<targets>
+		<category name="STM32 F1 Custom Series">
+			<cpu name="STM32F103VC"/>
+		</category>
+	</targets>
+</package>
