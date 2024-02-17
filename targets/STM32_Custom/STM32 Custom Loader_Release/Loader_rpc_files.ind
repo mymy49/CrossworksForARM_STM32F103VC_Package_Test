@@ -1,0 +1,8 @@
+"STM32 Custom Loader_Release/STM32_Custom_Loader.o"
+"STM32 Custom Loader_Release/Custom_Loader_Startup.o"
+"/usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a"
+"/usr/share/crossworks_for_arm_4.10/lib/libmem_loader_v7m_t_le_eabi.a"
+"/usr/share/crossworks_for_arm_4.10/lib/libm_v7m_t_le_eabi.a"
+"/usr/share/crossworks_for_arm_4.10/lib/libc_v7m_t_le_eabi.a"
+"/usr/share/crossworks_for_arm_4.10/lib/libdebugio_v7m_t_le_eabi.a"
+"/usr/share/crossworks_for_arm_4.10/lib/libcm_v7m_t_le_eabi.a"

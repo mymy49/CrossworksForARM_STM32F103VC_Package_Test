@@ -1,13 +1,13 @@
 Archive member included to satisfy reference by file (symbol)
 
 /usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a(libmem_light_unity.o)
-                              STM32 Custom Loader_Release/STM32_Loader.o (libmem_register_driver)
+                              STM32 Custom Loader_Release/STM32_Custom_Loader.o (libmem_register_driver)
 /usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a(libmem_crc32_direct.o)
                               /usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a(libmem_light_unity.o) (libmem_crc32_direct)
 /usr/share/crossworks_for_arm_4.10/lib/libmem_loader_v7m_t_le_eabi.a(libmem_rpc_loader_start.o)
-                              STM32 Custom Loader_Release/STM32_Loader.o (libmem_rpc_loader_start)
+                              STM32 Custom Loader_Release/STM32_Custom_Loader.o (libmem_rpc_loader_start)
 /usr/share/crossworks_for_arm_4.10/lib/libmem_loader_v7m_t_le_eabi.a(libmem_rpc_loader_exit.o)
-                              STM32 Custom Loader_Release/STM32_Loader.o (libmem_rpc_loader_exit)
+                              STM32 Custom Loader_Release/STM32_Custom_Loader.o (libmem_rpc_loader_exit)
 /usr/share/crossworks_for_arm_4.10/lib/libmem_loader_v7m_t_le_eabi.a(libmem_rpc_loader_op.o)
                               /usr/share/crossworks_for_arm_4.10/lib/libmem_loader_v7m_t_le_eabi.a(libmem_rpc_loader_start.o) (libmem_rpc_loader_op)
 /usr/share/crossworks_for_arm_4.10/lib/libc_v7m_t_le_eabi.a(libc2_asm.o)
@@ -39,24 +39,24 @@ Archive member included to satisfy reference by file (symbol)
 
 Discarded input sections
 
- .data          0x00000000        0x0 STM32 Custom Loader_Release/Loader_Startup.o
- .bss           0x00000000        0x0 STM32 Custom Loader_Release/Loader_Startup.o
- .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Loader.o
- .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Loader.o
- .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Loader.o
- .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Loader.o
- .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Loader.o
- .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Loader.o
- .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Loader.o
- .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Loader.o
- .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Loader.o
- .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Loader.o
- .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Loader.o
- .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Loader.o
- .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Loader.o
- .text          0x00000000        0x0 STM32 Custom Loader_Release/STM32_Loader.o
- .data          0x00000000        0x0 STM32 Custom Loader_Release/STM32_Loader.o
- .bss           0x00000000        0x0 STM32 Custom Loader_Release/STM32_Loader.o
+ .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .group         0x00000000        0xc STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .text          0x00000000        0x0 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .data          0x00000000        0x0 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .bss           0x00000000        0x0 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .data          0x00000000        0x0 STM32 Custom Loader_Release/Custom_Loader_Startup.o
+ .bss           0x00000000        0x0 STM32 Custom Loader_Release/Custom_Loader_Startup.o
  .text          0x00000000        0x0 /usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a(libmem_light_unity.o)
  .data          0x00000000        0x0 /usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a(libmem_light_unity.o)
  .bss           0x00000000        0x0 /usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a(libmem_light_unity.o)
@@ -3650,7 +3650,7 @@ Linker script and memory map
 .load_section   0x20000000      0x790
                 0x20000000                        __load_section_start__ = .
  *(.text)
- .text          0x20000000       0x2c STM32 Custom Loader_Release/Loader_Startup.o
+ .text          0x20000000       0x2c STM32 Custom Loader_Release/Custom_Loader_Startup.o
                 0x20000000                _start
  .text          0x2000002c        0x8 /usr/share/crossworks_for_arm_4.10/lib/libmem_loader_v7m_t_le_eabi.a(libmem_rpc_loader_start.o)
                 0x2000002c                libmem_rpc_loader_start
@@ -3661,18 +3661,18 @@ Linker script and memory map
                 0x20000040                libmem_rpc_loader_op
  *(.text.*)
  .text.FLASH_ProgramHalfWord
-                0x20000058       0x78 STM32 Custom Loader_Release/STM32_Loader.o
+                0x20000058       0x78 STM32 Custom Loader_Release/STM32_Custom_Loader.o
  .text.libmem_write_impl
-                0x200000d0       0x7a STM32 Custom Loader_Release/STM32_Loader.o
+                0x200000d0       0x7a STM32 Custom Loader_Release/STM32_Custom_Loader.o
  *fill*         0x2000014a        0x2 
  .text.libmem_erase_impl
-                0x2000014c      0x1e8 STM32 Custom Loader_Release/STM32_Loader.o
+                0x2000014c      0x1e8 STM32 Custom Loader_Release/STM32_Custom_Loader.o
  .text.libmem_inrange_impl
-                0x20000334       0x2c STM32 Custom Loader_Release/STM32_Loader.o
+                0x20000334       0x2c STM32 Custom Loader_Release/STM32_Custom_Loader.o
  .text.stm32_register_driver
-                0x20000360      0x200 STM32 Custom Loader_Release/STM32_Loader.o
+                0x20000360      0x200 STM32 Custom Loader_Release/STM32_Custom_Loader.o
                 0x20000360                stm32_register_driver
- .text.main     0x20000560       0x2c STM32 Custom Loader_Release/STM32_Loader.o
+ .text.main     0x20000560       0x2c STM32 Custom Loader_Release/STM32_Custom_Loader.o
                 0x20000560                main
  .text.libmem.libmem_register_driver
                 0x2000058c       0x28 /usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a(libmem_light_unity.o)
@@ -3709,12 +3709,12 @@ Linker script and memory map
  *(.rodata)
  *(.rodata.*)
  .rodata.stm32_register_driver.str1.4
-                0x20000758       0x13 STM32 Custom Loader_Release/STM32_Loader.o
+                0x20000758       0x13 STM32 Custom Loader_Release/STM32_Custom_Loader.o
  *fill*         0x2000076b        0x1 
  .rodata.ext_driver_functions
-                0x2000076c        0xc STM32 Custom Loader_Release/STM32_Loader.o
+                0x2000076c        0xc STM32 Custom Loader_Release/STM32_Custom_Loader.o
  .rodata.driver_functions
-                0x20000778       0x18 STM32 Custom Loader_Release/STM32_Loader.o
+                0x20000778       0x18 STM32 Custom Loader_Release/STM32_Custom_Loader.o
  *(.data)
  *(.data.*)
  *(.glue_7t)
@@ -3733,23 +3733,23 @@ Linker script and memory map
  .v4_bx         0x00000000        0x0 linker stubs
 
 .iplt           0x00000000        0x0
- .iplt          0x00000000        0x0 STM32 Custom Loader_Release/Loader_Startup.o
+ .iplt          0x00000000        0x0 STM32 Custom Loader_Release/STM32_Custom_Loader.o
 
 .igot.plt       0x00000000        0x0
- .igot.plt      0x00000000        0x0 STM32 Custom Loader_Release/Loader_Startup.o
+ .igot.plt      0x00000000        0x0 STM32 Custom Loader_Release/STM32_Custom_Loader.o
 
 .rel.dyn        0x20000790        0x0
- .rel.iplt      0x20000790        0x0 STM32 Custom Loader_Release/Loader_Startup.o
+ .rel.iplt      0x20000790        0x0 STM32 Custom Loader_Release/STM32_Custom_Loader.o
                 0x00000001                        . = ASSERT (((__load_section_start__ == __load_section_end__) || ((__load_section_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .load_section is too large to fit in RAM memory segment)
                 0x20000790                        __bss_load_start__ = ALIGN (__load_section_end__, 0x4)
 
 .bss            0x20000790       0x18
                 0x20000790                        __bss_start__ = .
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss.geometry  0x20000790       0x10 STM32 Custom Loader_Release/STM32_Loader.o
+ .bss.geometry  0x20000790       0x10 STM32 Custom Loader_Release/STM32_Custom_Loader.o
                 0x20000790                geometry
  .bss.FLASH_SIZE
-                0x200007a0        0x4 STM32 Custom Loader_Release/STM32_Loader.o
+                0x200007a0        0x4 STM32 Custom Loader_Release/STM32_Custom_Loader.o
                 0x200007a0                FLASH_SIZE
  .bss.libmem.libmem_drivers
                 0x200007a4        0x4 /usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a(libmem_light_unity.o)
@@ -3775,8 +3775,8 @@ Linker script and memory map
                 0x00000001                        . = ASSERT ((__STACKSIZE__ == ALIGN (__STACKSIZE__, 0x4)), error: .stack section size does not match alignment)
                 0x00000001                        . = ASSERT ((__stack_size__ <= __STACKSIZE__), error: .stack section is larger than specified size)
 START GROUP
-LOAD STM32 Custom Loader_Release/Loader_Startup.o
-LOAD STM32 Custom Loader_Release/STM32_Loader.o
+LOAD STM32 Custom Loader_Release/STM32_Custom_Loader.o
+LOAD STM32 Custom Loader_Release/Custom_Loader_Startup.o
 LOAD /usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a
 LOAD /usr/share/crossworks_for_arm_4.10/lib/libmem_loader_v7m_t_le_eabi.a
 LOAD /usr/share/crossworks_for_arm_4.10/lib/libm_v7m_t_le_eabi.a
@@ -3787,12 +3787,73 @@ END GROUP
 OUTPUT(/home/mymy49/firmware/CrossworksForARM_STM32F103VC_Package_Test/targets/STM32_Custom/Release/Loader_rpc.elf elf32-littlearm)
 LOAD linker stubs
 
+.debug_info     0x00000000      0xa56
+ .debug_info    0x00000000      0xa33 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_info    0x00000a33       0x23 STM32 Custom Loader_Release/Custom_Loader_Startup.o
+
+.debug_abbrev   0x00000000      0x2bc
+ .debug_abbrev  0x00000000      0x2a8 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_abbrev  0x000002a8       0x14 STM32 Custom Loader_Release/Custom_Loader_Startup.o
+
+.debug_loc      0x00000000      0x64c
+ .debug_loc     0x00000000      0x64c STM32 Custom Loader_Release/STM32_Custom_Loader.o
+
+.debug_pubnames
+                0x00000000      0x14b
+ .debug_pubnames
+                0x00000000      0x14b STM32 Custom Loader_Release/STM32_Custom_Loader.o
+
+.debug_pubtypes
+                0x00000000      0x35e
+ .debug_pubtypes
+                0x00000000      0x35e STM32 Custom Loader_Release/STM32_Custom_Loader.o
+
+.debug_aranges  0x00000000       0x68
+ .debug_aranges
+                0x00000000       0x48 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_aranges
+                0x00000048       0x20 STM32 Custom Loader_Release/Custom_Loader_Startup.o
+
+.debug_ranges   0x00000000       0x68
+ .debug_ranges  0x00000000       0x68 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+
+.debug_macro    0x00000000     0x9e96
+ .debug_macro   0x00000000       0xc3 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_macro   0x000000c3      0xb26 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_macro   0x00000be9       0x90 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_macro   0x00000c79       0x1c STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_macro   0x00000c95      0x18d STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_macro   0x00000e22       0xf1 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_macro   0x00000f13       0x56 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_macro   0x00000f69       0x1c STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_macro   0x00000f85       0x22 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_macro   0x00000fa7       0xd8 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_macro   0x0000107f      0xde7 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_macro   0x00001e66      0x11f STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_macro   0x00001f85     0x7edd STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_macro   0x00009e62       0x34 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+
+.debug_line     0x00000000      0x8eb
+ .debug_line    0x00000000      0x839 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+ .debug_line    0x00000839       0xb2 STM32 Custom Loader_Release/Custom_Loader_Startup.o
+
+.debug_str      0x00000000    0x3647b
+ .debug_str     0x00000000    0x36400 STM32 Custom Loader_Release/STM32_Custom_Loader.o
+                              0x36542 (size before relaxing)
+ .debug_str     0x00036400       0x7b STM32 Custom Loader_Release/Custom_Loader_Startup.o
+                                 0xd0 (size before relaxing)
+
+.comment        0x00000000       0x3d
+ .comment       0x00000000       0x3d STM32 Custom Loader_Release/STM32_Custom_Loader.o
+                                 0x3e (size before relaxing)
+ .comment       0x0000003d       0x3e /usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a(libmem_light_unity.o)
+
 .ARM.attributes
-                0x00000000       0x2b
+                0x00000000       0x2d
  .ARM.attributes
-                0x00000000       0x1b STM32 Custom Loader_Release/Loader_Startup.o
+                0x00000000       0x2f STM32 Custom Loader_Release/STM32_Custom_Loader.o
  .ARM.attributes
-                0x0000001b       0x2f STM32 Custom Loader_Release/STM32_Loader.o
+                0x0000002f       0x1b STM32 Custom Loader_Release/Custom_Loader_Startup.o
  .ARM.attributes
                 0x0000004a       0x2f /usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a(libmem_light_unity.o)
  .ARM.attributes
@@ -3803,11 +3864,6 @@ LOAD linker stubs
                 0x000000af       0x1b /usr/share/crossworks_for_arm_4.10/lib/libmem_loader_v7m_t_le_eabi.a(libmem_rpc_loader_exit.o)
  .ARM.attributes
                 0x000000ca       0x1b /usr/share/crossworks_for_arm_4.10/lib/libmem_loader_v7m_t_le_eabi.a(libmem_rpc_loader_op.o)
-
-.comment        0x00000000       0x3d
- .comment       0x00000000       0x3d STM32 Custom Loader_Release/STM32_Loader.o
-                                 0x3e (size before relaxing)
- .comment       0x0000003d       0x3e /usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a(libmem_light_unity.o)
 
 .stack_sizes    0x00000000       0x32
  .stack_sizes   0x00000000        0x5 /usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a(libmem_light_unity.o)
@@ -3821,60 +3877,5 @@ LOAD linker stubs
  .stack_sizes   0x00000028        0x5 /usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a(libmem_light_unity.o)
  .stack_sizes   0x0000002d        0x5 /usr/share/crossworks_for_arm_4.10/lib/libmem_light_v7m_t_le_eabi_small.a(libmem_light_unity.o)
 
-.debug_line     0x00000000      0x8dd
- .debug_line    0x00000000       0xab STM32 Custom Loader_Release/Loader_Startup.o
- .debug_line    0x000000ab      0x832 STM32 Custom Loader_Release/STM32_Loader.o
-
-.debug_info     0x00000000      0xa56
- .debug_info    0x00000000       0x23 STM32 Custom Loader_Release/Loader_Startup.o
- .debug_info    0x00000023      0xa33 STM32 Custom Loader_Release/STM32_Loader.o
-
-.debug_abbrev   0x00000000      0x2bc
- .debug_abbrev  0x00000000       0x14 STM32 Custom Loader_Release/Loader_Startup.o
- .debug_abbrev  0x00000014      0x2a8 STM32 Custom Loader_Release/STM32_Loader.o
-
-.debug_aranges  0x00000000       0x68
- .debug_aranges
-                0x00000000       0x20 STM32 Custom Loader_Release/Loader_Startup.o
- .debug_aranges
-                0x00000020       0x48 STM32 Custom Loader_Release/STM32_Loader.o
-
-.debug_str      0x00000000    0x3646d
- .debug_str     0x00000000       0xc9 STM32 Custom Loader_Release/Loader_Startup.o
- .debug_str     0x000000c9    0x363a4 STM32 Custom Loader_Release/STM32_Loader.o
-                              0x3653b (size before relaxing)
-
-.debug_loc      0x00000000      0x64c
- .debug_loc     0x00000000      0x64c STM32 Custom Loader_Release/STM32_Loader.o
-
-.debug_pubnames
-                0x00000000      0x14b
- .debug_pubnames
-                0x00000000      0x14b STM32 Custom Loader_Release/STM32_Loader.o
-
-.debug_pubtypes
-                0x00000000      0x35e
- .debug_pubtypes
-                0x00000000      0x35e STM32 Custom Loader_Release/STM32_Loader.o
-
-.debug_ranges   0x00000000       0x68
- .debug_ranges  0x00000000       0x68 STM32 Custom Loader_Release/STM32_Loader.o
-
-.debug_macro    0x00000000     0x9e96
- .debug_macro   0x00000000       0xc3 STM32 Custom Loader_Release/STM32_Loader.o
- .debug_macro   0x000000c3      0xb26 STM32 Custom Loader_Release/STM32_Loader.o
- .debug_macro   0x00000be9       0x90 STM32 Custom Loader_Release/STM32_Loader.o
- .debug_macro   0x00000c79       0x1c STM32 Custom Loader_Release/STM32_Loader.o
- .debug_macro   0x00000c95      0x18d STM32 Custom Loader_Release/STM32_Loader.o
- .debug_macro   0x00000e22       0xf1 STM32 Custom Loader_Release/STM32_Loader.o
- .debug_macro   0x00000f13       0x56 STM32 Custom Loader_Release/STM32_Loader.o
- .debug_macro   0x00000f69       0x1c STM32 Custom Loader_Release/STM32_Loader.o
- .debug_macro   0x00000f85       0x22 STM32 Custom Loader_Release/STM32_Loader.o
- .debug_macro   0x00000fa7       0xd8 STM32 Custom Loader_Release/STM32_Loader.o
- .debug_macro   0x0000107f      0xde7 STM32 Custom Loader_Release/STM32_Loader.o
- .debug_macro   0x00001e66      0x11f STM32 Custom Loader_Release/STM32_Loader.o
- .debug_macro   0x00001f85     0x7edd STM32 Custom Loader_Release/STM32_Loader.o
- .debug_macro   0x00009e62       0x34 STM32 Custom Loader_Release/STM32_Loader.o
-
 .debug_frame    0x00000000       0xc0
- .debug_frame   0x00000000       0xc0 STM32 Custom Loader_Release/STM32_Loader.o
+ .debug_frame   0x00000000       0xc0 STM32 Custom Loader_Release/STM32_Custom_Loader.o
