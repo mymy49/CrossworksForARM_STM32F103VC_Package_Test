@@ -5,7 +5,7 @@
 
 	<targets>
 		<category name="STM32 F1 Custom Series">
-			<cpu name="STM32F103VC"/>
+			<cpu name="STM32F103VC_Custom"/>
 		</category>
 	</targets>
 </package>
